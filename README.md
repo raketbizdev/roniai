@@ -1,61 +1,95 @@
-<p align="center">
-    <a href="https://bloomui.com" title="BloomUI.com">
-        <img src="https://bloomui.s3.us-east-2.amazonaws.com/tokyo-logo.png" alt="Tokyo Free White Typescript Next.js Admin Dashboard">
-    </a>
-</p>
-<h1 align="center">
-    <b>Tokyo Free White Typescript Next.js Admin Dashboard</b>
-    <br>
-    <a href="https://twitter.com/intent/tweet?url=https://bloomui.com&text=I like this Next.js admin dashboard">
-        <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
-    </a>
-</h1>
-<div align="center">
+# Finalyze AI
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-![license](https://img.shields.io/badge/license-MIT-blue.svg)
+Finalyze AI is a Next.js application designed to leverage the power of artificial intelligence for data analysis and visualization.
 
-<a href="https://bloomui.com/product/tokyo-free-white-nextjs-typescript-material-ui-admin-dashboard/"><img src="https://bloomui.s3.us-east-2.amazonaws.com/tokyo-free-white-nextjs-typescript-material-ui-admin-dashboard.jpg" /></a>
-</div>
+![Finalyze AI](https://raw.githubusercontent.com/raketbizdev/roniai/main/public/images/logo.png)
 
-<a href="https://bloomui.com/product/tokyo-free-white-nextjs-typescript-material-ui-admin-dashboard/"><h3>Free Material-UI Next.js Typescript Dashboard Template with Dark Color Scheme</h3></a>
-<p>
-    Tokyo Free White Next.js Typescript Dashboard is built using the latest industry standards and features a clean and premium design style, making use of colors and accents to improve the user experience for all included flows and pages.
-</p>
-<p>
-It is powered by Next.js, Typescript and React and contains multiple components customized on top of Material-UI – which is one of the best UI components frameworks available.</p>
-<p>
-We keep all dependencies updated to their latest stable versions. Each time we release an updated version you will be notified via the email you used to initially download the template.
-</p>
-<p>
-To discover all the features that this free React admin template has to offer, we suggest visiting the live preview we’ve set up.
-</p>
-<p>There is also a free Javascript version available, if that is what you prefer working with.</p>
+## Table of Contents
 
----
-<h3>Updrade to PRO</h3>
+- [Getting Started](#getting-started)
+- [Local Installation](#local-installation)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
 
-<p>The premium version of this template comes with a lot more components, features and options making it a very powerful friend in your development endeavors. You can download a copy of it from <a href="https://bloomui.com">bloomui.com</a></p>
+## Getting Started
 
----
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-<h2>
-    Quick Start
-</h2>
-<ol>
-    <li>Make sure you have the latest stable versions for Node.js and NPM installed</li>
-    <li>Clone repository: <code>git clone https://github.com/bloomui/tokyo-free-white-nextjs-admin-dashboard.git</code></li>
-    <li>Install dependencies: Run <code>npm install</code> inside the project folder</li>
-    <li>Start dev server: After the install finishes, run <code>yarn dev</code>. A browser window will open on http://localhost:3000 where you''ll see the live preview</li>
-</ol>
+### Prerequisites
 
----
+You will need to have the following software installed on your system:
 
-<h2>
-    Technical Support
-</h2>
-<p>
-    You can open a support ticket by sending an email here: <a href="mailto:support@bloomui.freshdesk.com" title="Open Support Ticket">
-        support@bloomui.freshdesk.com
-    </a>
-</p>
+- Node.js (14.x or later)
+- npm (7.x or later)
+- Git
+
+## Local Installation
+
+Here are the steps you need to follow to run this project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/raketbizdev/roniai.git
+```
+
+2. Navigate into the cloned repository:
+
+```bash
+cd roniai
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application should now be running at ![http://localhost:3000](http://localhost:3000)
+
+## Deployment
+
+This project is configured for deployment with Vercel.
+
+Follow these steps to deploy the project to your Vercel account:
+
+1. Install the Vercel CLI:
+
+```bash
+npm install -g vercel
+```
+
+2. Login to your Vercel account:
+
+```bash
+vercel login
+```
+
+3. Navigate into the project directory:
+
+```bash
+cd roniai
+```
+
+4. Deploy the application:
+
+```bash
+vercel --prod
+```
+
+After deployment, the application will be available at https://roniai.vercel.app/.
+
+## Contributing
+
+We appreciate all contributions. If you're interested in contributing, please read our contributing guide.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
