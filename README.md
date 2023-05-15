@@ -2,7 +2,7 @@
 
 Finalyze AI is a Next.js application designed to leverage the power of artificial intelligence for data analysis and visualization.
 
-[Finalyze AI](https://github.com/raketbizdev/roniai/blob/dev/public/static/images/logo/roniai.png)
+![Finalyze AI](https://github.com/raketbizdev/roniai/blob/dev/public/static/images/logo/roniai.png)
 
 ## Table of Contents
 
