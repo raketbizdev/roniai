@@ -91,7 +91,7 @@ function Hero() {
         <Grid item md={10} lg={8} mx="auto">
     
           <TypographyH1 sx={{ mb: 2 }} variant="h1">
-          Roni.AI: Transforming Accounting & Financial Reporting with AI
+          Roni AI: Simplifying Financial Analysis
           </TypographyH1>
           <TypographyH2
             sx={{ lineHeight: 1.5, pb: 4 }}
@@ -99,7 +99,7 @@ function Hero() {
             color="text.secondary"
             fontWeight="normal"
           >
-            Welcome to Roni.AI, the next-generation SaaS platform that leverages artificial intelligence to revolutionize your accounting and financial reporting tasks. We're here to make financial insights fast, accurate, and easy-to-understand, empowering you to optimize your financial performance like never before.
+            With Roni AI AI, the future of financial analysis is here. Our cutting-edge AI technology helps you interpret and understand your business's financial statements with incredible simplicity. We turn complicated financial jargon into plain, human language.
           </TypographyH2>
           
     
